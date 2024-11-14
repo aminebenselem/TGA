@@ -1,0 +1,25 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="8dp"
+    android:gravity="center"
+    android:layout_margin="8dp">
+
+    <ImageView
+        android:id="@+id/templateImage"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/business"
+        android:contentDescription="Template Image" />
+
+    <TextView
+        android:id="@+id/templateName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:text="Template Name"
+        android:textSize="14sp"
+        android:textAlignment="center"/>
+</LinearLayout>

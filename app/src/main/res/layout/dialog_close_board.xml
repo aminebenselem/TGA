@@ -1,0 +1,39 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Basic Board"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:paddingBottom="16dp" />
+
+    <TextView
+        android:id="@+id/closeBoardOption"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Close Board"
+        android:textSize="16sp"
+        android:padding="8dp" />
+
+    <TextView
+        android:id="@+id/deleteBoardOption"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Delete Board"
+        android:textSize="16sp"
+        android:padding="8dp" />
+
+    <TextView
+        android:id="@+id/shareBoardLinkOption"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Share Board Link"
+        android:textSize="16sp"
+        android:padding="8dp" />
+
+</LinearLayout>
